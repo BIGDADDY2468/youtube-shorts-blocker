@@ -17,8 +17,12 @@ YouTube Shorts Blocker is a simple Chrome extension that automatically redirects
 
 **Project Structure**
 yt-shorts-blocker
-| manifest.json
-| background.js
+
+│
+
+├── manifest.json
+
+└──  background.js
 
 **Installation**
 
