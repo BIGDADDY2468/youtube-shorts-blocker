@@ -1,0 +1,16 @@
+{
+  "name": "YouTube Shorts Auto Close",
+  "version": "1.0",
+  "manifest_version": 3,
+  "description": "Closes YouTube Shorts and redirects to YouTube home",
+  "permissions": ["tabs"],
+  "host_permissions": [
+    "*://www.youtube.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "YT Shorts Blocker"
+  }
+}
